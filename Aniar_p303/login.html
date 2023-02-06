@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <style>
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        height: 100vh;
+      }
+      form {
+        width: 100%;
+        max-width: 350px;
+        padding: 50px 40px;
+        box-shadow: 0 0 20px -10px gray;
+        border-radius: 20px;
+      }
+      label {
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+      div {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        margin-bottom: 20px;
+      }
+      input {
+        padding: 10px 10px;
+        border-radius: 10px;
+        outline: none !important;
+        border: 1px solid gray;
+      }
+      button {
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        padding: 10px 30px;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label>Username</label>
+        <input type="text" placeholder="enter your username" />
+      </div>
+      <div>
+        <label>password</label>
+        <input type="password" placeholder="enter your password" />
+      </div>
+      <button>Save</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <style>
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        height: 100vh;
+      }
+      form {
+        width: 100%;
+        max-width: 350px;
+        padding: 50px 40px;
+        box-shadow: 0 0 20px -10px gray;
+        border-radius: 20px;
+      }
+      label {
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+      div {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        margin-bottom: 20px;
+      }
+      input {
+        padding: 10px 10px;
+        border-radius: 10px;
+        outline: none !important;
+        border: 1px solid gray;
+      }
+      button {
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        padding: 10px 30px;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label>full name</label>
+        <input type="text" placeholder="enter your full name" />
+      </div>
+      <div>
+        <label>address</label>
+        <input type="text" placeholder="enter your address" />
+      </div>
+      <div>
+        <label>contact</label>
+        <input type="text" placeholder="enter your contact" />
+      </div>
+      <div>
+        <label>temperature</label>
+        <input type="text" placeholder="enter your temperature" />
+      </div>
+      <button>Save</button>
+    </form>
+  </body>
+</html>
